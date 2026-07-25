@@ -1,0 +1,37 @@
+# Theme Switcher Lite - Sprache de_DE
+# Copyright (C) 2026 DoliResources - GPL-3.0-or-later
+
+Module10000160Name = Theme Switcher Lite
+Module10000160Desc = Eine schnelle Akzentfarben-Auswahl und ein Hell-/Dunkel-Schalter im Menue oben rechts, pro Benutzer gespeichert
+ThemeSwitcherLiteSetup = Theme Switcher Lite
+
+# --- Bedienelement oben rechts ---
+TslSwitchTitle = Akzentfarbe und helles/dunkles Design
+TslAccentColor = Akzentfarbe
+TslNoAccent = Standardfarben (kein Akzent)
+TslThemeToggle = Helles / dunkles Design
+
+# --- Einstellungen ---
+TslConfigIntro = Waehlen Sie die den Benutzern angebotenen Akzentfarben und die Standardwerte. Die Wahl jedes Benutzers wird in seinem Browser gespeichert und auf jeder Seite angewendet.
+CfgAccents = Akzent-Palette
+CfgAccentsHint = Durch Leerzeichen oder Kommas getrennte Hex-Farben (z. B. #2563EB, #059669). Ungueltige Eintraege werden ignoriert.
+CfgAccentsPreview = Vorschau der den Benutzern angezeigten Palette.
+CfgDefaultAccent = Standard-Akzent
+CfgDefaultAccentHint = Wird auf Benutzer angewendet, die noch keinen gewaehlt haben. "Standardfarben" behaelt das native Aussehen von Dolibarr.
+CfgAllowDark = Dunkelmodus erlauben
+CfgAllowDarkHint = Den Hell-/Dunkel-Schalter im Menue oben rechts anzeigen.
+CfgDarkDefault = Im Dunkelmodus starten
+CfgDarkDefaultHint = Neue Benutzer starten im Dunkelmodus, bis sie ihn ausschalten (erfordert "Dunkelmodus erlauben").
+TslResetButton = Zuruecksetzen
+TslResetConfirm = Alle Einstellungen von Theme Switcher Lite auf die Standardwerte zuruecksetzen?
+TslTryHint = Tipp: Probieren Sie es gleich im Menue oben rechts aus. Ihre Wahl wird nur fuer Ihr Konto gespeichert.
+
+# --- Ueber ---
+TslAboutIntro = Theme Switcher Lite fuegt dem Menue oben rechts ein kleines Bedienelement hinzu, damit jeder Benutzer Dolibarr sofort umfaerben und zwischen hellem und dunklem Modus wechseln kann. Die Einstellung wird im Browser gespeichert und ohne Flackern angewendet. Es ist kein vollstaendiger Theme-Ersatz, nur eine schnelle persoenliche Note.
+TslAboutFeat1 = Akzentfarben-Auswahl im Menue oben rechts (vom Admin definierte Palette).
+TslAboutFeat2 = Heller / dunkler Modus mit einem Klick, unter Verwendung der nativen dunklen Palette von Dolibarr.
+TslAboutFeat3 = Pro Benutzer gespeichert (Browser-localStorage), auf jeder Seite ohne Flackern angewendet.
+TslAboutFeat4 = Keine Datenbanktabelle, keine Eingabe, keine Leistungseinbussen.
+TslAboutEditor = Herausgeber:
+TslAboutEditorText = DoliResources - praktische Module und Themes fuer Dolibarr.
+TslAboutLicense = Freie und quelloffene Software unter der GNU GPL v3.

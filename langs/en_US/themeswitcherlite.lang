@@ -1,0 +1,37 @@
+# Theme Switcher Lite - language en_US
+# Copyright (C) 2026 DoliResources - GPL-3.0-or-later
+
+Module10000160Name = Theme Switcher Lite
+Module10000160Desc = A quick accent-colour picker and light/dark toggle in the top-right menu, remembered per user
+ThemeSwitcherLiteSetup = Theme Switcher Lite
+
+# --- Top-right control ---
+TslSwitchTitle = Accent colour & light/dark theme
+TslAccentColor = Accent colour
+TslNoAccent = Default colours (no accent)
+TslThemeToggle = Light / dark theme
+
+# --- Setup ---
+TslConfigIntro = Choose the accent colours offered to users and the defaults. Each user's own choice is remembered in their browser and applied on every page.
+CfgAccents = Accent palette
+CfgAccentsHint = Space or comma separated hex colours (e.g. #2563EB, #059669). Invalid entries are ignored.
+CfgAccentsPreview = Preview of the palette shown to users.
+CfgDefaultAccent = Default accent
+CfgDefaultAccentHint = Applied to users who have not chosen one yet. "Default colours" keeps Dolibarr's native look.
+CfgAllowDark = Allow dark mode
+CfgAllowDarkHint = Show the light/dark toggle in the top-right menu.
+CfgDarkDefault = Start in dark mode
+CfgDarkDefaultHint = New users start in dark mode until they toggle it off (requires "Allow dark mode").
+TslResetButton = Reset
+TslResetConfirm = Reset all Theme Switcher Lite settings to their defaults?
+TslTryHint = Tip: try it now from the top-right menu. Your choice is saved for your account only.
+
+# --- About ---
+TslAboutIntro = Theme Switcher Lite adds a small control to the top-right menu so every user can instantly recolour Dolibarr and switch between light and dark mode. The preference is stored in the browser and applied with no flash. It is not a full theme replacement, just a fast personal touch.
+TslAboutFeat1 = Accent-colour picker in the top-right menu (admin-defined palette).
+TslAboutFeat2 = One-click light / dark mode, reusing Dolibarr's native dark palette.
+TslAboutFeat3 = Remembered per user (browser localStorage), applied on every page with no flash.
+TslAboutFeat4 = No database table, no data entry, no performance impact.
+TslAboutEditor = Publisher:
+TslAboutEditorText = DoliResources - practical modules and themes for Dolibarr.
+TslAboutLicense = Free and open-source software, licensed under GNU GPL v3.

@@ -1,0 +1,37 @@
+# Theme Switcher Lite - lingua it_IT
+# Copyright (C) 2026 DoliResources - GPL-3.0-or-later
+
+Module10000160Name = Theme Switcher Lite
+Module10000160Desc = Un selettore rapido del colore d'accento e un interruttore chiaro/scuro nel menu in alto a destra, memorizzato per utente
+ThemeSwitcherLiteSetup = Theme Switcher Lite
+
+# --- Controllo in alto a destra ---
+TslSwitchTitle = Colore d'accento e tema chiaro/scuro
+TslAccentColor = Colore d'accento
+TslNoAccent = Colori predefiniti (senza accento)
+TslThemeToggle = Tema chiaro / scuro
+
+# --- Configurazione ---
+TslConfigIntro = Scegli i colori d'accento offerti agli utenti e i valori predefiniti. La scelta di ogni utente viene memorizzata nel suo browser e applicata su tutte le pagine.
+CfgAccents = Palette d'accenti
+CfgAccentsHint = Colori esadecimali separati da spazi o virgole (es. #2563EB, #059669). Le voci non valide vengono ignorate.
+CfgAccentsPreview = Anteprima della palette mostrata agli utenti.
+CfgDefaultAccent = Accento predefinito
+CfgDefaultAccentHint = Applicato agli utenti che non ne hanno ancora scelto uno. "Colori predefiniti" mantiene l'aspetto nativo di Dolibarr.
+CfgAllowDark = Consenti la modalita scura
+CfgAllowDarkHint = Mostra l'interruttore chiaro/scuro nel menu in alto a destra.
+CfgDarkDefault = Avvia in modalita scura
+CfgDarkDefaultHint = I nuovi utenti partono in modalita scura finche non la disattivano (richiede "Consenti la modalita scura").
+TslResetButton = Ripristina
+TslResetConfirm = Ripristinare tutte le impostazioni di Theme Switcher Lite ai valori predefiniti?
+TslTryHint = Suggerimento: provalo subito dal menu in alto a destra. La tua scelta viene salvata solo per il tuo account.
+
+# --- Informazioni ---
+TslAboutIntro = Theme Switcher Lite aggiunge un piccolo controllo al menu in alto a destra affinche ogni utente possa ricolorare istantaneamente Dolibarr e passare tra modalita chiara e scura. La preferenza viene salvata nel browser e applicata senza sfarfallio. Non e una sostituzione completa del tema, solo un rapido tocco personale.
+TslAboutFeat1 = Selettore del colore d'accento nel menu in alto a destra (palette definita dall'admin).
+TslAboutFeat2 = Modalita chiara / scura con un clic, riutilizzando la palette scura nativa di Dolibarr.
+TslAboutFeat3 = Memorizzato per utente (localStorage del browser), applicato su ogni pagina senza sfarfallio.
+TslAboutFeat4 = Nessuna tabella nel database, nessun inserimento dati, nessun impatto sulle prestazioni.
+TslAboutEditor = Editore:
+TslAboutEditorText = DoliResources - moduli e temi pratici per Dolibarr.
+TslAboutLicense = Software libero e open-source, con licenza GNU GPL v3.
